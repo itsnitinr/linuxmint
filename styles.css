@@ -1,0 +1,162 @@
+/* Tags  */
+
+p{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Classes */
+
+.top-container{
+  background-color: #f9f8eb;
+  padding-bottom: 1rem;
+}
+
+.navbar{
+  padding: 1rem 2.5rem;
+}
+
+.navbar-nav{
+  margin: 1rem 2rem;
+}
+
+.brand-name{
+  padding: 10px;
+  color: #1a945e;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header-title{
+  font-size: 4rem;
+  font-family: Montserrat;
+  color: #1a945e;
+}
+
+.tagline{
+  font-family: Ubuntu;
+}
+
+.dl-btn{
+  margin-top: 2rem;
+}
+
+.header{
+  margin: 3rem 2rem;
+}
+
+.mockup{
+  max-width: 100%;
+  width: 800px;
+  height: 450px;
+  margin-left: 2.5rem;
+}
+
+.features-box{
+  background-color: #1a945e;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.feature-item{
+  padding: 1rem 50px;
+}
+
+.feature-tagline{
+  margin-top: 20px;
+  font-family: Ubuntu;
+}
+
+.gallery{
+  background-color: #f9f8eb;
+  padding: 1rem;
+}
+
+.carousel-heading{
+  text-align: center;
+  color: #1a945e;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-subheader{
+    font-family: Montserrat;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-img{
+  width: 720px;
+  height: 480px;
+  margin: auto;
+  padding: 20px;
+  max-width: 100%
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23183' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23183' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel{
+  width: 1080px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.download-container{
+  background-color: #1a945e;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+}
+
+.download-header{
+  padding-bottom: 30px;
+}
+
+.card-header{
+  font-family: Ubuntu;
+}
+
+.footer-box{
+  background-color: #f9f8eb;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer-icon{
+  color: #1a945e;
+  padding: 1rem;
+}
+
+.endgame{
+  color: grey;
+  padding-top: 15px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  body{
+    text-align: center;
+    margin: auto;
+  }
+  .mockup{
+    margin: auto;
+    max-height: 100%;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .dl-card{
+    padding: 3% 2%;
+  }
+}
